@@ -1,4 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
+
     <string name="app_name">ASProject</string>
     <string name="welcome">Bem vindo/a!</string>
     <string name="info">Insira o seu nome de usuário e a sua senha para continuar</string>
@@ -7,5 +10,4 @@
     <string name="login">iniciar de sessão</string>
     <string name="newPassword">Criar nova conta</string>
     <string name="come_back_login">Voltar para o inicio de sessão</string>
-
 </resources>

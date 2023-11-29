@@ -14,7 +14,7 @@ class lista_telefonica : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener{
-            finish()
+            finish() //so para teste para voltar ao menu de login
         }
 
     }

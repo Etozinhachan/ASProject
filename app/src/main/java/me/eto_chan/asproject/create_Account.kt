@@ -13,7 +13,7 @@ class create_Account : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.backLogin.setOnClickListener{
-            finish()
+            finish() //come back to de login menu
         }
     }
 }

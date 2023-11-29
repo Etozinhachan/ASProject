@@ -5,21 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_marginTop="150dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Bem vindo/a!"
+        android:text="@string/welcome"
+        android:textStyle="bold"
         android:textSize="50sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Insira o seu username e a sua password para continuar"
+        android:text="@string/info"
         android:layout_marginBottom="50dp"/>
 
 
@@ -27,16 +28,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="35dp">
+        android:layout_marginLeft="30dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username:"/>
+            android:text="@string/username"
+            />
+
         <EditText
+
             android:id="@+id/username_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:minWidth="200dp"/>
+            android:minWidth="200dp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     </LinearLayout>
 
@@ -44,18 +49,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginLeft="35dp">
+        android:layout_marginLeft="30dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password:"/>
+            android:text="@string/password"/>
+
         <EditText
             android:id="@+id/password_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:minWidth="200dp"
-            android:inputType="textPassword"/>
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
 
@@ -63,15 +70,20 @@
         android:id="@+id/login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="40dp"
-        android:text="Login" />
+        android:layout_marginRight="30dp"
+        android:text="@string/login" />
 
     <Button
         android:id="@+id/create_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Create new account" />
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/newPassword" />
+
 
 
 </LinearLayout>

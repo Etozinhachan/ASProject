@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ASProject</string>
+    <string name="welcome">Welcome!</string>
+    <string name="info">Enter your username and password to continue</string>
+    <string name="username">username:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="newPassword">Create new account</string>
+    <string name="come_back_login">come back to login</string>
+
+</resources>
