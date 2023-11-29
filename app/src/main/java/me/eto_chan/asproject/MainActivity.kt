@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.loginBtn.setOnClickListener{
 
-            val availableUsernames = arrayOf("user","user1","user2","jorginho","arroz","batata")
-            val passwords = arrayOf("pass","pass1","pass2","passJorginho","passArroz","passBatata")
+            val availableUsernames = arrayOf("user","user1","user2","jorginho","arroz","batata","lituania")
+            val passwords = arrayOf("pass","pass1","pass2","passJorginho","passArroz","passBatata","perto_da_russia")
 
             val username = binding.usernameField.text.toString().trim()
             val password = binding.passwordField.text.toString().trim()
