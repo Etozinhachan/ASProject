@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ASProject"
         tools:targetApi="31">
         <activity
+            android:name=".create_Account"
+            android:exported="false" />
+        <activity
             android:name=".lista_telefonica"
             android:exported="false" />
         <activity

@@ -41,5 +41,11 @@ class MainActivity : AppCompatActivity() {
             binding.passwordField.setText("")
 
         }
+
+        binding.createBtn.setOnClickListener{
+            val i = Intent(this, create_Account::class.java)
+            startActivity(i)
+        }
+
     }
 }
