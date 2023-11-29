@@ -28,8 +28,8 @@ class MainActivity : AppCompatActivity() {
                 if (passwords[usernameIndex] == password) {
                     Toast.makeText(applicationContext, "Login Sucessful!", Toast.LENGTH_SHORT)
                         .show()
-                    //val i = Intent(this, ProfileActivity::class.java)
-                    //startActivity(i)
+                    val i = Intent(this,  lista_telefonica::class.java)
+                    startActivity(i)
 
                 }else{
                     Toast.makeText(applicationContext, "Wrong password!", Toast.LENGTH_SHORT).show()
