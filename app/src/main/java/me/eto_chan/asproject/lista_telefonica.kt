@@ -13,9 +13,17 @@ class lista_telefonica : AppCompatActivity() {
         binding = ActivityListaTelefonicaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.button.setOnClickListener{
-            finish() //so para teste para voltar ao menu de login
+
+        binding.userCircle.setOnClickListener{
+            finish() //fazer para aceder as informações do utilizador e para editar as informações
         }
 
+        binding.addNumber.setOnClickListener{
+            finish() //fazer para adicionar um novo numero
+        }
+
+        binding.deleteNumber.setOnClickListener{
+            finish() //fazer para deletar um novo numero
+        }
     }
 }

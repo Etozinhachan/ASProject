@@ -3,8 +3,10 @@ package me.eto_chan.asproject
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import me.eto_chan.asproject.R.*
 import me.eto_chan.asproject.databinding.ActivityMainBinding
 import java.util.Locale
 

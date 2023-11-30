@@ -1,4 +1,6 @@
 <resources>
+
+    //inicio
     <string name="app_name">ASProject</string>
     <string name="welcome">Bem vindo/a!</string>
     <string name="info">Insira o seu nome de usuário e a sua senha para continuar</string>
@@ -6,6 +8,12 @@
     <string name="password">Senha</string>
     <string name="login">iniciar de sessão</string>
     <string name="newPassword">Criar nova conta</string>
+
+    //criar conta
     <string name="come_back_login">Voltar para o inicio de sessão</string>
+
+
+    //lista telefonica
+    <string name="hello_name">ola user</string>
 
 </resources>
