@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="110dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -19,25 +19,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/info"
+        android:text="@string/help"
         android:layout_marginBottom="50dp"/>
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:gravity="center"
+        android:orientation="vertical">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/username"
-            />
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="@string/username" />
 
         <EditText
-
             android:id="@+id/username_field"
-            android:layout_width="wrap_content"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:minWidth="200dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -47,20 +48,22 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginLeft="30dp">
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
             android:text="@string/password"/>
 
         <EditText
             android:id="@+id/password_field"
-            android:layout_width="wrap_content"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:minWidth="200dp"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </LinearLayout>
 
@@ -82,6 +85,7 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:text="@string/newPassword" />
+
 
 
 

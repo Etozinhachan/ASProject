@@ -4,7 +4,7 @@
     //inicio
     <string name="app_name">ASProject</string>
     <string name="welcome">Welcome!</string>
-    <string name="info">Enter your username and password to continue</string>
+    <string name="help">Enter your username and password to continue</string>
     <string name="username">username:</string>
     <string name="password">Password:</string>
     <string name="login">Login</string>
@@ -16,6 +16,8 @@
     //lista telefonica
     <string name="hello_name">hello user</string>
 
-
+    //sobre
+    <string name="info">Sobre nós</string>
+    <string name="info_text">bomboclata</string>
 
 </resources>

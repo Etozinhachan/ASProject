@@ -1,5 +1,6 @@
 package me.eto_chan.asproject
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import me.eto_chan.asproject.databinding.ActivityListaTelefonicaBinding
@@ -25,5 +26,11 @@ class lista_telefonica : AppCompatActivity() {
         binding.deleteNumber.setOnClickListener{
             finish() //fazer para deletar um novo numero
         }
+
+        binding.aboutUs.setOnClickListener{
+            val i2 = Intent(this, about_us::class.java)
+            startActivity(i2)
+        }
+
     }
 }
