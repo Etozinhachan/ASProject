@@ -3,6 +3,7 @@ package me.eto_chan.asproject
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import me.eto_chan.asproject.databinding.ActivityListaTelefonicaBinding
 import me.eto_chan.asproject.databinding.ActivityMainBinding
 
@@ -20,7 +21,7 @@ class lista_telefonica : AppCompatActivity() {
         }
 
         binding.addNumber.setOnClickListener{
-            finish() //fazer para adicionar um novo numero
+
         }
 
         binding.deleteNumber.setOnClickListener{

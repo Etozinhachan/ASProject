@@ -12,12 +12,16 @@
     //criar conta
     <string name="come_back_login">Voltar para o inicio de sessão</string>
 
-
     //lista telefonica
     <string name="hello_name">ola user</string>
-    
+
     //sobre
     <string name="info">Sobre nós</string>
     <string name="info_text">bomboclata</string>
+
+    //informaçoes do utilizador
+    <string name="name">nome:</string>
+    <string name="number">number:</string>
+
 
 </resources>

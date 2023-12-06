@@ -20,4 +20,8 @@
     <string name="info">Sobre nós</string>
     <string name="info_text">bomboclata</string>
 
+    //informaçoes do utilizador
+    <string name="name">name:</string>
+    <string name="number">number:</string>
+
 </resources>
