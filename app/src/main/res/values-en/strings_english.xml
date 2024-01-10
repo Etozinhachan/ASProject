@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //inicio
+    <string name="app_name">ASProject</string>
+    <string name="welcome">Welcome!</string>
+    <string name="help">Enter your username and password to continue</string>
+    <string name="username">username:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="newPassword">Create new account</string>
+
+    //criar conta
+    <string name="come_back_login">come back to login</string>
+
+    //lista telefonica
+    <string name="hello_name">hello user</string>
+
+    //sobre
+    <string name="info">Sobre nós</string>
+    <string name="info_text">bomboclata</string>
+
+    //informaçoes do utilizador
+    <string name="name">name:</string>
+    <string name="number">number:</string>
+
+</resources>

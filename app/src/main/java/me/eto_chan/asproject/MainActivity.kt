@@ -1,14 +1,21 @@
 package me.eto_chan.asproject
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
+import android.content.res.Configuration
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import me.eto_chan.asproject.R.*
 import me.eto_chan.asproject.databinding.ActivityMainBinding
+import java.util.Locale
+
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,8 +35,8 @@ class MainActivity : AppCompatActivity() {
                 if (passwords[usernameIndex] == password) {
                     Toast.makeText(applicationContext, "Login Sucessful!", Toast.LENGTH_SHORT)
                         .show()
-                    //val i = Intent(this, ProfileActivity::class.java)
-                    //startActivity(i)
+                    val i = Intent(this,  lista_telefonica::class.java)
+                    startActivity(i)
 
                 }else{
                     Toast.makeText(applicationContext, "Wrong password!", Toast.LENGTH_SHORT).show()
@@ -41,5 +48,15 @@ class MainActivity : AppCompatActivity() {
             binding.passwordField.setText("")
 
         }
+
+        binding.createBtn.setOnClickListener{
+            val i2 = Intent(this, create_Account::class.java)
+            startActivity(i2)
+        }
+
+
+
+
     }
+
 }
